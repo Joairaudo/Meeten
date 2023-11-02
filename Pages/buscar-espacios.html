@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeten</title>
+    <link rel="icon" href="./assets/Logo/favicon-13.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--link a ESTILO PROPIO siempre DEBAJO de bootstrap-->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<header>
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container">
+          <nav class="navbar navbar-expand-lg bg-dark">
+              <div class="container-fluid nav-menu">
+                  <img class="logo-nav" src="../assets/Logo/logo-nav.png" alt="logo-nav">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./anunciar-espacio.html">Anuncia tu espacio</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experiencias</a>
+                              <ul class="dropdown-menu">
+                                  <li>
+                                      <a class="dropdown-item" href="./buscar-experiencias.html">Buscar experiencias</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./anunciar-experiencia">Anunciar experiencia</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./iniciar-sesion.html">Iniciar sesión</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./registrarse.html">Registrarse</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </nav>    
+</header>
+<body>
+  <main>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <form>
+                    <fieldset>
+                        <legend>
+                            <h1 class="textoColumna1">Encuentra tu espacio creativo</h1>
+                            <p>Reserva tu espacio ideal directamente de anfitriones</p>
+                        </legend>
+                        <div class="mb-3">¿Qué espacio buscas?</label>
+                          <select id="dondeInput" class="form-select">
+                              <option>Taller, Sala, Jardín...</option>
+                          </select>
+                      </div>
+                        <div class="mb-3">
+                            <label for="dondeInput" class="form-label">¿Dónde?</label>
+                            <select id="dondeInput" class="form-select">
+                                <option>Barcelona</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Buscar</button> 
+                        <a href="./busqueda-pisos.html" class="btn btn-primary">Ver todos</a>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 columna-imagen">
+                <img class="imagenColumna2" src="../assets/Fotos/ceramica/Taller3.jpg" alt="Tu espacio">
+            </div>
+        </div>
+    </div>
+</main>
+<section>
+  <div class="container">
+  <div class="row columnaTexto3">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <h2>¿Por qué elegir Meet-en?</h2>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <h3><b>Espacios únicos.</b><br>Todos los días descubrimos espacios nuevos y creativos, desde galerías de barrio hasta terrazas escondidas y mucho más.<br><br><b>Precios justos y reales.</b><br>Nuestros espacios tienen un precio que se ajusta a tu presupuesto. Paga por horas sin preocuparte por cobros ocultos. Reservas sin complicaciones.<br><br><b>Se acabaron los contratos engorrosos.</b><br>Creamos las herramientas para que reservar un espacio sea tan sencillo como hacer clic en un botón.</h3>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</body>
+<footer class="background-footer">
+  <a href="#top">Ir arriba</a>
+  <p>Contacto | Términos y Condiciones | Política de Privacidad</p>
+</footer>
+</html>
+
+                
+
+   
+  

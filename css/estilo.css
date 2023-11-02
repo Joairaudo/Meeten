@@ -1,0 +1,104 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1, 400;
+}
+
+.nav-menu {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    }
+
+.logo-nav {
+    width: 12vw;
+    position: relative;
+    align-items: center;
+    margin-right: 19vw;
+}
+
+.background-body {
+    background-image: url(../assets/Fotos/sala/Sala2.png);
+    width: 100%;
+    position: relative;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-select {
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    }
+
+    h1 {
+        padding-top: 10rem;
+        font-weight: 700;
+        font-size: 3rem;
+        background-color: none;
+        color: white;
+        text-shadow: 3px 2px 7px#09282ce1;
+        text-align: center;
+    }
+
+    .porQueMeeten{
+        background-color: #333333;
+        width: 100vw;
+        margin: 0;
+
+            
+    }
+    h2 {
+        font-weight: 700;
+    }
+    h3{
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+  .textoColumna1{
+        font-weight: 700;
+        font-size: 2.4rem;
+        background-color: none;
+        color: #333333;
+        text-align: left;
+        text-shadow: none;
+        line-height: 1;
+    }
+
+    .columnaTexto3 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        color: rgb(88, 88, 88);
+    }
+.optionText {
+    color: #505050;
+}
+
+.imagenCard{
+    height: ;
+}
+.background-footer {
+        background-color: #0f0f0f;
+        height: 60px;
+        color: white;
+        text-align: center;
+    }
